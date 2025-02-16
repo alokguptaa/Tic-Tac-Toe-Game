@@ -1,0 +1,24 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top:20%;
+}
+.col{
+    height: 65px;
+    width: 65px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+}
